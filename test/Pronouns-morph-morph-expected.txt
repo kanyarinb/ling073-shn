@@ -1,0 +1,40 @@
+[5JFRZZFvg0av#0] ^သူ/သူ<prn><person><p2>$
+[/5JFRZZFvg0av]
+[7yCQk2TkY4Br#0] ^ၶႃ/ၶႃ<prn><person><p3><du>$
+[/7yCQk2TkY4Br]
+[8m0quQK7Bpm8#0] ^တူ/တူ<prn><person><p1><sg>$
+[/8m0quQK7Bpm8]
+[F4_zco9TP25L#0] ^ၸဝ်ႈ/ၸဝ်ႈ<prn><person><p2><sg>$
+[/F4_zco9TP25L]
+[Ih1zu_2gsVlU#0] ^ၶႃႈ/ၶႃႈ<prn><person><p1><sg>$
+[/Ih1zu_2gsVlU]
+[Kcv_-Yy2Al3k#0] ^ႁႃး/ႁႃး<prn><person><p1><du>$
+[/Kcv_-Yy2Al3k]
+[L-MeYE4qZjQn#0] ^သူၸဝ်ႈ/သူၸဝ်ႈ<prn><person><p2>$
+[/L-MeYE4qZjQn]
+[RGGIkTRA8RbY#0] ^ၶႃႈႁဝ်း/ၶႃႈႁဝ်း<prn><person><p1><sg>$
+[/RGGIkTRA8RbY]
+[VeLS7l2py_LX#0] ^ၶဝ်ၸဝ်ႈ/ၶဝ်ၸဝ်ႈ<prn><person><p3>$
+[/VeLS7l2py_LX]
+[ZIW9rINxr3m7#0] ^ၵဝ်/ၵဝ်<prn><person><p1><sg>$
+[/ZIW9rINxr3m7]
+[a5IL4KI2YgpN#0] ^မႂ်း/မႂ်း<prn><person><p2><sg>$
+[/a5IL4KI2YgpN]
+[bnpbtP9b0wO6#0] ^မၼ်း/မၼ်း<prn><person><p3><sg>$
+[/bnpbtP9b0wO6]
+[g9h3dQgbRfFu#0] ^ႁဝ်းၶႃႈ/ႁဝ်းၶႃႈ<prn><person><p1><pl>$
+[/g9h3dQgbRfFu]
+[iQKKN48OTXQe#0] ^ၶဝ်/ၶဝ်<prn><person><p3>$
+[/iQKKN48OTXQe]
+[j87_wL0ISvE2#0] ^ၼၼ်ႉ/ၼၼ်ႉ<det>/ၼၼ်ႉ<prn><dem>$
+[/j87_wL0ISvE2]
+[mQ0NETOF89uA#0] ^ႁဝ်း/ႁဝ်း<prn><person><p1><pl>$
+[/mQ0NETOF89uA]
+[oKhJXOssC9QJ#0] ^ၼႆႉ/ၼႆႉ<det>/ၼႆႉ<prn><dem>$
+[/oKhJXOssC9QJ]
+[tlyvNgqqrXPJ#0] ^ပိူၼ်ႈ/ပိူၼ်ႈ<prn><person><p3><pl>$
+[/tlyvNgqqrXPJ]
+[xjZGxfXGYJjT#0] ^ၶိူဝ်/ၶိူဝ်<prn><person><p2><du>$
+[/xjZGxfXGYJjT]
+[znFWB4lZVGNI#0] ^ၵူႈၵေႃႉ/ၵူႈၵေႃႉ<prn><person><p3><sg>$
+[/znFWB4lZVGNI]

@@ -1,0 +1,71 @@
+Alphabet
+ꧤ ၿ ၸ တ ၼ မ  
+ႄ 
+ပ 
+ၵ 
+င 
+သ 
+ၺ 
+ႁ
+ေ
+ျ
+ိ
+်
+ႂ
+့
+ႈ
+ု
+ူ
+ း
+ ႊ
+ၽ
+ထ
+ၶ
+လ
+ႇ
+ွ
+ၢ
+ယ
+ဢ
+။
+ၹ
+ၻ
+ꧣ
+ြ
+ၷ
+ဝ
+ဵ
+ှ
+ီ
+ႅ
+ံ
+႞
+႟
+ရ
+ၾ
+ၻ
+ꧠ
+ꩮ
+ႆ
+ႃ
+၊
+႑ ႒ ႓ ႔ ႕ ႖ ႗ ႘ ႙ ႐
+;
+
+Sets
+
+Vowel = A E Ä I O Ö U Ü Y Ý
+        a e ä i o ö u ü y ý ;
+
+Rules
+
+"Remove suffix vowel with vowel-ending stem"
+i:0 <=> Vow %{VSUF%}:0 _ [ m | n ] ;
+
+! Resources:
+! https://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol
+! https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstHome
+! https://github.com/hfst/
+! https://wiki.apertium.org/wiki/Twol
+! https://wiki.apertium.org/wiki/Hfst
+

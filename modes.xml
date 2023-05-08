@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modes>
+  <mode name="shn-twol" install="no">
+    <pipeline>
+      <program name="hfst-strings2fst -S"/>
+      <program name="hfst-compose-intersect">
+        <file name=".deps/shn.twol.hfst"/>
+      </program>
+      <program name="hfst-fst2strings"/>
+    </pipeline>
+  </mode>
+
+  <mode name="shn-morph2" install="yes">
+    <pipeline>
+      <program name="python3">
+        <file name="tokeniser.py"/>
+        <file name="shn.autotok.hfst"/>
+      </program>
+      <program name="lt-proc -w">
+        <file name="shn.automorf.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="shn-morph" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="shn.automorf.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+  <mode name="shn-lexd" install="no">
+    <pipeline>
+      <program name="hfst-lookup">
+        <file name=".deps/shn.LR.lexd.hfst"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="shn-gener" install="yes">
+    <pipeline>
+      <program name="lt-proc -g">
+        <file name="shn.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="shn-tagger" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="shn.automorf.bin"/>
+      </program>
+      <program name="cg-proc -1 -n -w">
+        <file name="shn.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="shn-disam" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="shn.automorf.bin"/>
+      </program>
+      <program name="cg-conv -a"/>
+      <program name="vislcg3 --trace --grammar">
+        <file name="shn.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="shn-disam2" install="yes">
+    <pipeline>
+      <program name="python3">
+        <file name="tokeniser.py"/>
+        <file name="shn.autotok.hfst"/>
+      </program>
+      <program name="lt-proc -w">
+        <file name="shn.automorf.bin"/>
+      </program>
+      <program name="cg-conv -a"/>
+      <program name="vislcg3 --trace --grammar">
+        <file name="shn.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="shn-paradigm" install="yes">
+    <pipeline>
+      <program name="lt-paradigm -s">
+        <file name="shn.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+</modes>
+

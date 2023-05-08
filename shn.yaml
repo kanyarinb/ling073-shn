@@ -1,0 +1,6 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../shn.autogen.hfst
+    Morph: ../shn.automorf.hfst
+Tests: {}
